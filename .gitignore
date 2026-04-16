@@ -1,0 +1,21 @@
+# Generated output — do not commit
+output/site/
+output/keywords/
+output/seo-report.md
+
+# Keep the output directory itself
+!output/.gitkeep
+
+# Local config overrides (copy config.json → config.local.json for personal use)
+config.local.json
+
+# Environment / secrets
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (Playwright installs via npx — no node_modules to commit)
+node_modules/

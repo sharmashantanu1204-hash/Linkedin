@@ -1,0 +1,12 @@
+{
+  "website_url": "https://your-website.com",
+  "niche": "describe your niche here (e.g. 'no-code SaaS tools for indie founders')",
+  "competitors": [
+    "https://competitor1.com",
+    "https://competitor2.com"
+  ],
+  "serpapi_key": "your-serpapi-key-here",
+  "max_pages_to_crawl": 50,
+  "keywords_to_research": 30,
+  "output_dir": "./output"
+}
