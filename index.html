@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NoCode SaaS — Build & Scale with AI, No Code Required</title>
+  <meta name="description" content="The newsletter where I take you along for the ride of building and scaling a software business without code using AI." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">&#9670;</span>
+        <span class="logo-text">NoCode <strong>SaaS</strong></span>
+      </a>
+      <nav class="nav-links">
+        <a href="#how-it-works">How It Works</a>
+        <a href="#setup">Setup Guide</a>
+        <a href="#subscribe" class="btn btn-sm">Subscribe Free</a>
+      </nav>
+      <button class="mobile-menu-btn" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="issue-badge">Latest Issue &mdash; April 2026</div>
+      <h1>
+        I Got Claude Code to Build Me<br />
+        <span class="gradient-text">an Entire SEO Strategy</span><br />
+        in 20 Minutes
+      </h1>
+      <p class="hero-sub">
+        Using two free MCPs, Claude crawled my website, researched competitor keywords,
+        and came back with a prioritised plan of exactly what pages to add &mdash; all
+        backed by real data. Here's exactly how I did it.
+      </p>
+      <div class="hero-cta">
+        <a href="#subscribe" class="btn btn-primary">Get The Next Issue Free</a>
+        <a href="#article" class="btn btn-ghost">Read This Issue &darr;</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">12,400+</span>
+          <span class="stat-label">Subscribers</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">20 min</span>
+          <span class="stat-label">Setup Time</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">$0</span>
+          <span class="stat-label">No Code Needed</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-gradient"></div>
+  </section>
+
+  <!-- ARTICLE -->
+  <article id="article" class="article-section">
+    <div class="container article-layout">
+
+      <!-- STICKY TOC -->
+      <aside class="toc-sidebar">
+        <div class="toc-inner">
+          <p class="toc-title">In This Issue</p>
+          <ul>
+            <li><a href="#shift">The Shift That's Happening</a></li>
+            <li><a href="#what-are-mcps">What Are MCPs?</a></li>
+            <li><a href="#the-two-mcps">The Two MCPs I Used</a></li>
+            <li><a href="#setup">Step-by-Step Setup</a></li>
+            <li><a href="#prompt">The Prompt I Used</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- ARTICLE BODY -->
+      <div class="article-body">
+
+        <div class="author-line">
+          <div class="author-avatar">NS</div>
+          <div>
+            <p class="author-name">NoCode SaaS Newsletter</p>
+            <p class="author-meta">5 min read &nbsp;&bull;&nbsp; April 16, 2026</p>
+          </div>
+        </div>
+
+        <p class="article-lead">
+          Welcome back to NoCode SaaS &mdash; the newsletter where I take you along for
+          the ride of building and scaling a software business without code using AI.
+        </p>
+        <p>
+          This week I want to show you something that felt like magic when I first tried
+          it. I got Claude Code to build me an entire SEO strategy. It researched my
+          competitors, analysed keywords, looked at what content is ranking, and came
+          back with a prioritised plan of exactly what pages I should add to my website
+          to improve my search rankings. All backed by real data. And it took about 20
+          minutes.
+        </p>
+
+        <!-- THE SHIFT -->
+        <h2 id="shift">The Shift That's Happening</h2>
+        <p>
+          No-code made building software easy. AI is making it even easier. When anyone
+          can spin up an app in a weekend, the hard part isn't building anymore &mdash;
+          it's getting people to notice what you've built.
+        </p>
+        <blockquote>
+          Capturing attention is becoming the most important skill for indie founders.
+          Marketing is the bottleneck now.
+        </blockquote>
+        <p>
+          If I'm being honest, marketing is my least favourite thing to do. I'd much
+          rather be building features than writing blog posts or figuring out SEO. But
+          as a solo founder, you don't get to just ignore it.
+        </p>
+        <p>
+          So the holy grail for me is getting Claude Code to help run marketing
+          autonomously. I want a <strong>marketing team of agents</strong> instead of a
+          bunch of employees I have to manage. A team that can help me grow my app
+          without needing to hire anyone.
+        </p>
+        <p>
+          MCPs are a big part of that story. They're how you give Claude Code the
+          ability to actually <em>do</em> things. Research keywords. Check rankings.
+          Analyse competitors. Post content. All of it.
+        </p>
+
+        <!-- WHAT ARE MCPS -->
+        <h2 id="what-are-mcps">What Are MCPs?</h2>
+        <p>
+          MCP stands for <strong>Model Context Protocol</strong>. But you don't really
+          need to remember that. Just think of them as tools you give to Claude Code
+          that it can decide when and how to use.
+        </p>
+
+        <div class="callout callout-info">
+          <div class="callout-icon">&#128161;</div>
+          <div>
+            <p class="callout-title">MCPs vs Plugins</p>
+            <p>
+              With a Bubble plugin or API connection, <em>you're</em> in control &mdash;
+              you set up the connection, you decide when it fires. With MCPs, you hand
+              Claude a capability and let it figure out <em>when</em> to use it. You say
+              "build me an SEO strategy" and Claude chains the right tools together on
+              its own.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          I really realised Claude Code was an unbelievable tool once I added the
+          Supabase MCP. Claude just went off and completely configured the database for
+          me &mdash; set up the tables, configured the security rules, linked it all up
+          to my project. It was amazing to watch it work.
+        </p>
+        <p>
+          Claude Code on its own is incredibly clever. But it can't see the full web. It
+          can't check how your site is ranking on Google. It can't browse your
+          competitors' websites. It can't update your database. MCPs unlock all of that.
+          And setting them up is way easier than you'd think &mdash; most of the time
+          you're just adding a line to a config file. No coding required.
+        </p>
+
+        <!-- THE TWO MCPS -->
+        <h2 id="the-two-mcps">The Two MCPs I Used</h2>
+
+        <div class="mcp-card">
+          <div class="mcp-card-header">
+            <span class="mcp-badge mcp-badge-blue">MCP #1</span>
+            <h3>Playwright</h3>
+          </div>
+          <p>
+            Playwright gives Claude Code a real browser it can control. It can visit
+            websites, click around, and read content &mdash; basically do anything you
+            can do in Chrome.
+          </p>
+          <p>
+            I used it to fetch my entire website. Claude visited every page, grabbed all
+            the content, saved it to markdown files, downloaded the images, and built a
+            complete local copy of my site structure. By the end, Claude had full context
+            of everything I've already published.
+          </p>
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="terminal-title">Terminal</span>
+            </div>
+            <pre><code><span class="token-comment"># Install Playwright MCP</span>
+<span class="token-cmd">claude mcp add playwright -- npx @anthropic-ai/mcp-server-playwright</span></code></pre>
+          </div>
+        </div>
+
+        <div class="mcp-card">
+          <div class="mcp-card-header">
+            <span class="mcp-badge mcp-badge-green">MCP #2</span>
+            <h3>SerpAPI</h3>
+          </div>
+          <p>
+            This is the star of the show. SerpAPI gives Claude Code access to live
+            search engine data &mdash; Google search results, autocomplete suggestions,
+            related keywords, what your competitors are ranking for, news results,
+            shopping results.
+          </p>
+          <p>
+            Basically all the stuff you'd normally pay hundreds of pounds a month for
+            with tools like Ahrefs or SEMrush. They have a <strong>free tier</strong>
+            that's more than enough to test this out.
+          </p>
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="terminal-title">Terminal</span>
+            </div>
+            <pre><code><span class="token-comment"># Install SerpAPI MCP (replace with your key)</span>
+<span class="token-cmd">claude mcp add serpapi --url https://mcp.serpapi.com/YOUR_API_KEY/mcp</span></code></pre>
+          </div>
+        </div>
+
+        <!-- SETUP GUIDE -->
+        <h2 id="setup">How To Set This Up (Step by Step)</h2>
+        <p>Here's exactly how to get this working. It's easier than you'd think.</p>
+
+        <div class="steps">
+
+          <div class="step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h3>Get Claude Code Running</h3>
+              <p>
+                If you don't already have Claude Code installed, head to
+                <strong>claude.ai/code</strong> and follow the setup instructions.
+                You'll need a Claude Pro or Max subscription. Once it's installed, open
+                your terminal and type:
+              </p>
+              <div class="terminal">
+                <div class="terminal-bar">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="terminal-title">Terminal</span>
+                </div>
+                <pre><code><span class="token-cmd">claude</span></code></pre>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h3>Install the Playwright MCP</h3>
+              <p>In your terminal, run this single command:</p>
+              <div class="terminal">
+                <div class="terminal-bar">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="terminal-title">Terminal</span>
+                </div>
+                <pre><code><span class="token-cmd">claude mcp add playwright -- npx @anthropic-ai/mcp-server-playwright</span></code></pre>
+              </div>
+              <p>That's it. Playwright is now connected to Claude Code.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h3>Set Up SerpAPI</h3>
+              <p>
+                Head to <strong>serpapi.com</strong> and create a free account. Grab
+                your API key from the dashboard, then run:
+              </p>
+              <div class="terminal">
+                <div class="terminal-bar">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="terminal-title">Terminal</span>
+                </div>
+                <pre><code><span class="token-cmd">claude mcp add serpapi \
+  --url https://mcp.serpapi.com/YOUR_API_KEY/mcp</span></code></pre>
+              </div>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h3>Verify Your MCPs Are Connected</h3>
+              <p>Check that both MCPs are working by asking Claude Code:</p>
+              <div class="terminal">
+                <div class="terminal-bar">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                  <span class="terminal-title">Claude Code</span>
+                </div>
+                <pre><code><span class="token-prompt">you &gt;</span> <span class="token-cmd">What MCPs do you have access to?</span></code></pre>
+              </div>
+              <p>You should see both Playwright and SerpAPI listed.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">05</div>
+            <div class="step-content" id="prompt">
+              <h3>Run the SEO Analysis</h3>
+              <p>Now for the fun part. Here's the exact prompt I used:</p>
+              <div class="prompt-block">
+                <div class="prompt-block-header">
+                  <span>Prompt</span>
+                  <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+                </div>
+                <p>
+                  I want you to help me create an SEO content strategy for my website
+                  [YOUR WEBSITE URL].
+                </p>
+                <p>
+                  First, use Playwright to crawl my website and save all the content to
+                  markdown files locally. I want you to understand what topics I've
+                  already covered.
+                </p>
+                <p>
+                  Then use SerpAPI to research keywords in my niche. Look at what's
+                  ranking, what questions people are asking, and what my competitors are
+                  covering.
+                </p>
+                <p>
+                  Finally, compare my existing content against the opportunities you
+                  find. Give me a prioritised list of new pages I should create, with
+                  the keyword, estimated search volume, and why I have a chance of
+                  ranking.
+                </p>
+              </div>
+              <p>
+                Claude will take a few minutes to crawl your site and run the keyword
+                research. You'll see it working through everything in the terminal.
+                And that's it &mdash; you'll get back a full SEO content plan based on
+                real search data.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- WHATS NEXT -->
+        <div class="callout callout-success">
+          <div class="callout-icon">&#128640;</div>
+          <div>
+            <p class="callout-title">What's Next</p>
+            <p>
+              The next step is to get Claude Code to actually implement its
+              recommendations and make all the SEO improvements itself. I'll cover
+              this in a future issue along with more MCPs and tools I'm using to build
+              a fully autonomous marketing team.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works" class="how-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Every Issue, You Get Something Useful</h2>
+        <p>Not theory. Real walkthroughs with real tools, from a solo founder who's figuring it out in public.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#129302;</div>
+          <h3>AI-Powered Workflows</h3>
+          <p>Step-by-step guides on using Claude Code, MCPs, and AI agents to automate the boring parts of running a SaaS.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128200;</div>
+          <h3>Growth Without Code</h3>
+          <p>SEO, marketing, and distribution strategies you can execute with AI tools &mdash; no developers required.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128295;</div>
+          <h3>Real Tools, Real Data</h3>
+          <p>Every recommendation is backed by actual experiments. I only write about things I've personally tried and tested.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128101;</div>
+          <h3>Solo Founder Perspective</h3>
+          <p>No VC funding, no big team. Just one person using AI to punch above their weight class.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE -->
+  <section id="subscribe" class="subscribe-section">
+    <div class="container subscribe-inner">
+      <div class="subscribe-text">
+        <h2>Join 12,400+ founders building with AI</h2>
+        <p>
+          Get the next issue in your inbox &mdash; free, no spam, unsubscribe any time.
+          I send one email per week when I have something genuinely useful to share.
+        </p>
+        <ul class="subscribe-perks">
+          <li>&#10003;&nbsp; Weekly AI &amp; no-code build logs</li>
+          <li>&#10003;&nbsp; MCP setup guides and prompts</li>
+          <li>&#10003;&nbsp; Real revenue &amp; growth numbers</li>
+          <li>&#10003;&nbsp; Tools I'm actually using</li>
+        </ul>
+      </div>
+      <div class="subscribe-form-wrap">
+        <form class="subscribe-form" onsubmit="handleSubscribe(event)">
+          <label for="email-input">Your email address</label>
+          <div class="form-row">
+            <input
+              id="email-input"
+              type="email"
+              placeholder="you@example.com"
+              required
+              autocomplete="email"
+            />
+            <button type="submit" class="btn btn-primary">Subscribe Free</button>
+          </div>
+          <p class="form-note">No spam. Unsubscribe any time.</p>
+        </form>
+        <div class="subscribe-success" id="subscribe-success" hidden>
+          <div class="success-icon">&#9989;</div>
+          <h3>You're in!</h3>
+          <p>Check your inbox to confirm your subscription. See you next week.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">&#9670;</span>
+          <span class="logo-text">NoCode <strong>SaaS</strong></span>
+        </a>
+        <p>Building software businesses with AI, no code required.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#article">Latest Issue</a>
+        <a href="#how-it-works">About</a>
+        <a href="#subscribe">Subscribe</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 NoCode SaaS. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
